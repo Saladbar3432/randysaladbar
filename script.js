@@ -10,6 +10,10 @@ const albums = [
     {
         title: "Cutting It Close",
         image: "Images/Cutting It Close.jpeg"
+    },
+    {
+        title: "Intermission",
+        image: "Images/Intermission.jpeg"
     }
 ];
 

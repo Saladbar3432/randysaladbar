@@ -23,12 +23,22 @@ a {
 .hero {
     min-height: 100vh;
     padding: 24px 8%;
+
     background:
         linear-gradient(
             rgba(10, 10, 15, 0.35),
             rgba(10, 10, 15, 0.95)
         ),
-        radial-gradient(circle at top right, #8f4ae8, transparent 45%);
+        radial-gradient(
+            circle at top right,
+            rgba(143, 74, 232, 0.5),
+            transparent 45%
+        ),
+        url("Images/background.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 nav {
